@@ -1,3 +1,8 @@
+import clases from "./clases.js"
+const {Animal,Leon,Lobo,Oso,Serpiente,Aguila} = clases
+
+
+
 /* Buscar sonidos
 hace una primera busqueda de todos los sonidos que coinciden con la palabra a buscar
 luego selecciona un elemento y busca ese elemento por su id para devolver el mp3 de ese sonido */
@@ -37,6 +42,10 @@ const buscarImagenes = async (inputBusqueda) => {
     }
     
 }
+
+const aguila = new Aguila("asd","asa","213","asda","2e")
+
+
 
 
 $("#buscarSonido").click(()=>{
